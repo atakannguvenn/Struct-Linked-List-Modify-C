@@ -44,11 +44,11 @@ void display(struct node *np, int starter)
     int y = 0, z = 0, counter = 0, print_counter = 0;
     char lastnameholder[3][50], firstnameholder[3][50];
     if(starter == 0)
-            printf("Names before mirroring the names\n");
-        else if(starter == 1)
-            printf("\nNames after mirroring the names\n");
-        else if(starter == 2)
-            printf("\nNames after mirroring and reversing the names\n");
+        printf("Names before mirroring the names\n");
+    else if(starter == 1)
+        printf("\nNames after mirroring the names\n");
+    else
+        printf("\nNames after mirroring and reversing the names\n");
     while(np!=NULL)
     {
         if(starter == 0){
